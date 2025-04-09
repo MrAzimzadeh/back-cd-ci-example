@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestCdCi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b34be1549c46d6cc098c10efdf5673ad894e8d46")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestCdCi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestCdCi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
