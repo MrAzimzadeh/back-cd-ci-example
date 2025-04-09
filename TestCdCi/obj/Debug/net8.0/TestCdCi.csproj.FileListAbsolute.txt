@@ -29,3 +29,11 @@
 /Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/obj/Debug/net8.0/TestCdCi.pdb
 /Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/obj/Debug/net8.0/TestCdCi.genruntimeconfig.cache
 /Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/obj/Debug/net8.0/ref/TestCdCi.dll
+/Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/obj/Debug/net8.0/TestCdCi.csproj.AssemblyReference.cache
+/Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/obj/Debug/net8.0/TestCdCi.MvcApplicationPartsAssemblyInfo.cs
+/Users/azimzada.mahammad/work/webconsole/TestCdCi/TestCdCi/obj/Debug/net8.0/TestCdCi.csproj.Up2Date

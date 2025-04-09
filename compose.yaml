@@ -1,0 +1,6 @@
+﻿services:
+  testcdci:
+    image: testcdci
+    build:
+      context: .
+      dockerfile: TestCdCi/Dockerfile
