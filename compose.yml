@@ -4,3 +4,6 @@ services:
     build:
       context: .
       dockerfile: TestCdCi/Dockerfile
+    ports:
+      - "8080:8080"
+

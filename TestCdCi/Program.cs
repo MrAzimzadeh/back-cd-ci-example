@@ -1,4 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
+Console.WriteLine("Hello World! This is a test for CD/CI pipeline.");
 
 builder.WebHost.ConfigureKestrel(options =>
 {
@@ -9,8 +10,11 @@ builder.WebHost.ConfigureKestrel(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+// Add MVC services
+builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();
 
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -40,6 +44,11 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+// Add MVC routing before app.Run()
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
 
