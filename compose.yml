@@ -1,9 +1,6 @@
 services:
   testcdci:
     image: testcdci
-    restart: always
     build:
       context: .
       dockerfile: TestCdCi/Dockerfile
-  diamonlize:
-    restart: always
