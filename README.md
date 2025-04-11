@@ -75,6 +75,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # 12. Check version
 docker-compose version
+
+sudo usermod -aG docker c2-user
+
+newgrp docker
+
 ```
 
 ---
