@@ -83,6 +83,31 @@ newgrp docker
 ```
 
 ---
+```bash
+sudo yum install nginx -y
+sudo systemctl enable nginx
+sudo systemctl start nginx
+
+sudo nano /etc/nginx/conf.d/myapp.conf
+sudo nginx -t   # config testi
+sudo systemctl reload nginx
+```
+
+```txt
+
+server {
+    listen 80;
+    server_name your_public_ip;
+
+    location / {
+        proxy_pass http://localhost:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+```
+  
+---
 
 ### 🧰 GitHub Actions Workflow (deploy.yml)
 
